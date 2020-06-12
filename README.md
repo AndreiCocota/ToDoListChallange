@@ -1,2 +1,0 @@
-# ToDoListChallange
-Created with CodeSandbox

@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+}
+
+.header-section {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  color: white;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.footer-section {
+  margin: auto -16px;
+  color: #ccc;
+  padding: 5px 20px;
+  text-align: center;
+}
+.addingButton {
+  margin-left: 20px;
+}
+.containerApp {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 400px;
+  min-width: 350px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 20px auto;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.deleteButton {
+  float: right;
+  color: red;
+}
+
+.itemContainer {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+.todoItem {
+  padding-left: 7px;
+  text-decoration: none;
+}
+.todoItemComplete {
+  padding-left: 7px;
+  text-decoration: line-through;
+}
+form input {
+  border: 0;
+}
+form input:focus {
+  outline: none;
+}
